@@ -35,20 +35,26 @@ Keyboard layout indicator and switcher for Noctalia Shell on niri.
 - Noctalia Shell
 
 ---
-## 📦 Installation
+## Installation
+
+### Option 1: Noctalia Plugin Store
+
+Once available in the Noctalia Plugin Store:
+
+1. Open Noctalia Settings.
+2. Go to Plugins.
+3. Search for **Niri Layout Indicator**.
+4. Press **Install**.
+5. Add the widget to your bar.
+
+### Option 2: Manual install
 
 ```bash
-mkdir -p ~/.config/noctalia/plugins
-cp -r niri-layout-indicator ~/.config/noctalia/plugins/
-```
-
-Then enable the plugin in Noctalia settings.
-
-### Quick install
-
-```bash
+git clone https://github.com/alnrog/niri-layout-indicator.git
+cd niri-layout-indicator
 ./install.sh
 ```
+
 ---
 ## 🖱 Controls
 
