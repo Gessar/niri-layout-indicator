@@ -106,6 +106,7 @@ NIconButton {
     if (n.indexOf("japanese") >= 0) return "ja"
     if (n.indexOf("korean") >= 0) return "ko"
     if (n.indexOf("chinese") >= 0) return "zh"
+    if (n.indexOf("kazakh") >= 0) return "kz"
 
     var first = (name || "??").replace(/\(.*/, "").trim().split(/\s+/)[0]
     return first.substring(0, 2).toLowerCase()
@@ -133,6 +134,7 @@ NIconButton {
     if (n.indexOf("japanese") >= 0) return "🇯🇵"
     if (n.indexOf("korean") >= 0) return "🇰🇷"
     if (n.indexOf("chinese") >= 0) return "🇨🇳"
+    if (n.indexOf("kazakh") >= 0) return "🇰🇿"
 
     return "⌨"
   }
